@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: lightblue;
+}
+.mainForm {
+  width: 400px;
+  background: #fff;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.05),
+    inset -5px -5px 5px rgba(255, 255, 255, 0.05),
+    5px 5px 5px rgba(0, 0, 0, 0.05), -5px -5px 5px rgba(255, 255, 255, 0.05);
+  border-radius: 6px;
+}
+.mainForm > h3 {
+  font-size: 40px;
+  font-family: arial;
+  text-align: center;
+  margin-top: 50px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 40px;
+}
+input {
+  padding: 8px 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: 0;
+  outline: 0;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.05),
+    inset -5px -5px 5px rgba(255, 255, 255, 0.05),
+    5px 5px 5px rgba(0, 0, 0, 0.05), -5px -5px 5px rgba(255, 255, 255, 0.05);
+}
+textarea {
+  overflow: hidden;
+  width: 100%;
+  padding: 8px 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: 0;
+  outline: 0;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.05),
+    inset -5px -5px 5px rgba(255, 255, 255, 0.05),
+    5px 5px 5px rgba(0, 0, 0, 0.05), -5px -5px 5px rgba(255, 255, 255, 0.05);
+}
+.btn {
+  background: blue;
+  color: #fff;
+  font-size: 17px;
+  font-family: arial;
+  font-weight: normal;
+}
+.btn:hover {
+  color: red;
+  cursor: pointer;
+}
